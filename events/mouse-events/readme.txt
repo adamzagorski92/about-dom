@@ -79,3 +79,14 @@ pointercancel // Uniwersalne zdarzenie dla przerwania kontaktu z ekranem.
 gesturestart // Rozpoczęcie gestu wielodotykowego (np. pinch-to-zoom).
 gesturechange // Zmiana w gestach wielodotykowych (np. powiększanie, obracanie).
 gestureend // Zakończenie gestu wielodotykowego.
+
+// WSKAZÓWKI DLA FRONT-END DEVELOPERA
+
+1. Skup się na click, mousemove i scroll – to jedne z najczęściej używanych zdarzeń do badania zachowań użytkownika.
+2. Zrozum obsługę urządzeń dotykowych – takie zdarzenia jak touchstart czy pointerdown są kluczowe w aplikacjach mobilnych.
+3. Integracja z narzędziami analitycznymi – ucz się, jak łączyć dane z eventów z narzędziami takimi jak Google Analytics, Matomo czy inne systemy analizy zachowań.
+4. Dbaj o wydajność – optymalizuj zdarzenia intensywne (np. mousemove, scroll) za pomocą throttle lub debounce.
+5. Dostosowanie UX/UI – ucz się, jak za pomocą eventów poprawiać nawigację i interaktywność (np. podświetlenie elementów, efekty hover, tooltipy).
+
+Zastosowanie:
+https://docs.google.com/spreadsheets/d/19WozE0uWZ8xw0b0dMUAgFtY3OQj7pXdUDR75KJmSN6g/edit?usp=sharing
